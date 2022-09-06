@@ -1,0 +1,16 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 540px;
+}
+
+.navigation__span {
+  color: var(--nav-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 28px;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+  cursor: pointer;
+}

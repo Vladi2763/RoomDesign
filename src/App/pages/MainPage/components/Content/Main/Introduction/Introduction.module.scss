@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 82px;
+  padding-right: 67px;
+  padding-left: 30px;
+  margin-bottom: 35px;
+  min-height: 438px;
+  max-height: 438px;
+  overflow: auto;
+}
+
+.container__text {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.055em;
+  color: #000000;
+}
+
+.container__text:first-child {
+  margin-bottom: 20px;
+}

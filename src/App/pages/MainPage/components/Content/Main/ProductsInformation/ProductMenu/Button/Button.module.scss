@@ -1,0 +1,14 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    &__day {
+        background-color: #FFF3DA;
+    }
+    &__night {
+        background-color: #94A6A6;
+    }
+}

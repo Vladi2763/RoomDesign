@@ -1,0 +1,12 @@
+@import '../../../styles/variables.scss';
+
+.mainPage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1600px;
+  height: 100%;
+  background-color: $background-color;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}

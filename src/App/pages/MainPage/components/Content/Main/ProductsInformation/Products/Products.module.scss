@@ -1,0 +1,12 @@
+.products {
+      display: flex;
+      flex-direction: column;
+      padding: 17px 28px 0 17px;
+      overflow-y: auto;
+      scrollbar-width: none;
+      height: calc(100% - 76px - 17px - 30px);
+  }
+
+  .products::-webkit-scrollbar {
+    display: none; 
+  }

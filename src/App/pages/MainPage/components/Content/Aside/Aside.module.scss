@@ -1,0 +1,26 @@
+.aside {
+  display: flex;
+  position: relative;
+  flex-shrink: 0;
+  width: 55%;
+  z-index: 2;
+  align-items: flex-start;
+
+  &__image {
+    width: 100%;
+    border-radius: 15px;
+    filter: drop-shadow(2px 1px 4px rgb(51, 51, 51));
+  }
+
+  &__selectedLamp {
+    position: absolute;
+    left: 212px;
+    min-height: 220px;
+    min-width: 100px;
+    z-index: 2;
+
+    &_isDarkMode {
+      display: none;
+    }
+  }
+}

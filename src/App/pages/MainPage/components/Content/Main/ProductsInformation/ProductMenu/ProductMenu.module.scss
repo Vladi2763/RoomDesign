@@ -1,0 +1,18 @@
+.productMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 41px;
+    right: -6px;
+    background-color: #bddddd;
+    border-radius: 10px;
+    width: 178px;
+    height: 554px;
+
+    &__buttons {
+        display: flex;
+        width: 178px;
+        height: 76px;
+      }
+}
